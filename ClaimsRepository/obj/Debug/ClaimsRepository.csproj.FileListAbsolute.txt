@@ -1,0 +1,6 @@
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsRepository\bin\Debug\ClaimsRepository.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsRepository\bin\Debug\ClaimsRepository.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsRepository\obj\Debug\ClaimsRepository.csprojAssemblyReference.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsRepository\obj\Debug\ClaimsRepository.csproj.CoreCompileInputs.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsRepository\obj\Debug\ClaimsRepository.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsRepository\obj\Debug\ClaimsRepository.pdb

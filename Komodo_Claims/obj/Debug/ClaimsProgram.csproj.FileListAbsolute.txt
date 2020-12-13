@@ -1,0 +1,12 @@
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\bin\Debug\Komodo_Claims.exe.config
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\bin\Debug\Komodo_Claims.exe
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\bin\Debug\Komodo_Claims.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\bin\Debug\ClaimsRepository.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\bin\Debug\ConsoleTables.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\bin\Debug\ClaimsRepository.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\bin\Debug\ConsoleTables.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\obj\Debug\ClaimsProgram.csprojAssemblyReference.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\obj\Debug\ClaimsProgram.csproj.CoreCompileInputs.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\obj\Debug\ClaimsProgram.csproj.CopyComplete
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\obj\Debug\Komodo_Claims.exe
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\Komodo_Claims\obj\Debug\Komodo_Claims.pdb

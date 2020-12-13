@@ -35,13 +35,13 @@ namespace ClaimsRepository
 
 
         // Constructor with all of the properties associated with the claims object
-        public Claims(string claimID, claimType claimType, string description, string claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
+        public Claims(string claimID, ClaimType type, string description, string claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
         {
 
             ClaimID = claimID;
-            ClaimType = claimType;
+            TypeOfClaim = type;
             Description = description;
-            ClaimAmount = ClaimAmount;
+            ClaimAmount = claimAmount;
             DateOfIncident = dateOfIncident;
             DateOfClaim = dateOfClaim;
             IsValid = isValid;
