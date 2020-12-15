@@ -8,17 +8,17 @@ namespace ClaimsRepository
 {
     public class ClaimsRepo
     {
-        private List<Claims> _listOfClaims = new List<Claims>();
+        private Queue<Claims> _listOfClaims = new Queue<Claims>();
 
 
         // Create
         public void CreateClaim(Claims newClaim)
         {
-            _listOfClaims.Add(newClaim);
+            _listOfClaims.Enqueue(newClaim);
         }
 
         //Review
-        public List<Claims> GetClaims()    // access the list of all Claims
+        public Queue<Claims> GetClaims()    // access the list of all Claims
         {
             return _listOfClaims;
         }
@@ -37,7 +37,7 @@ namespace ClaimsRepository
         }
 
 
-        // Update 
+        // Update or Next Calim
 
 
 

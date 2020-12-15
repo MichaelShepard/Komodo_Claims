@@ -57,7 +57,6 @@ namespace ClaimsProgram
                         Console.WriteLine("Please enter a valid selection.");
                         break;
 
-
                 }
 
                 Console.WriteLine("Press any key to conitnue...");
@@ -71,7 +70,7 @@ namespace ClaimsProgram
         {
             Console.Clear();
 
-            List<Claims> _listOfClaims = _itemRepo.GetClaims();
+            Queue<Claims> _listOfClaims = _itemRepo.GetClaims();
 
             var table = new ConsoleTable("ClaimID", "Type", "Description", "Amount", "Date of Accident", "Date of Claim", "isValid"); //Header for table
 
@@ -88,6 +87,39 @@ namespace ClaimsProgram
 
         public void TakeCareOfNextClaim()
         {
+
+            Console.Clear();
+            SeeAllClaims();
+
+
+
+            Queue<Claims> _myQ = _itemRepo.GetClaims();
+            var nextInQ = _myQ.Peek();
+            
+            Console.WriteLine("This is the next claim: \n" +
+                 $"Claim ID: {nextInQ.ClaimID}\n" +
+                 $"Claim Type: {nextInQ.TypeOfClaim}\n" +
+                 $"Description: {nextInQ.Description}\n" +
+                 $"Amount: {nextInQ.ClaimAmount}\n" +
+                 $"Date of Incident: {nextInQ.DateOfIncident}\n" +
+                 $"Date of Claim: {nextInQ.DateOfClaim}\n" +
+                 $"Is valid: {nextInQ.IsValid}\n");
+
+            Console.WriteLine("Do you want to deal with this claim now(y/n)?");
+            string input = Console.ReadLine().ToLower();
+
+            if(input == "y")
+            {
+
+                _myQ.Dequeue();
+
+            } else {
+               
+                Console.WriteLine("Going to Main Menu");
+                Console.Clear();
+                Menu();
+            
+            }
 
 
         }
@@ -115,32 +147,31 @@ namespace ClaimsProgram
             Console.WriteLine("Enter in the description of claim:");
             newClaim.Description = Console.ReadLine();
 
-            Console.WriteLine("Enter in the claim amount ($xx.xx):");
+            Console.WriteLine("Enter in the claim amount: $ ");
             newClaim.ClaimAmount = Console.ReadLine();
             
             Console.WriteLine("Enter in the date of incident:");
             newClaim.DateOfIncident = DateTime.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter in the date of the incident:");
+            Console.WriteLine("Enter in the date of the claim:");
             newClaim.DateOfClaim = DateTime.Parse(Console.ReadLine());
 
-            Console.WriteLine("Is the policy valid (yes or no)?");
+            Console.WriteLine("Is the claim valid (yes or no)?");
             string inputPolicyValid = Console.ReadLine();
             newClaim.IsValid = "yes".Equals(inputPolicyValid, StringComparison.OrdinalIgnoreCase);
 
             _itemRepo.CreateClaim(newClaim);
 
-            
         }
 
-
+ 
 
         // Other Methods
 
         public void SeedMenuList()
         {
-            Claims claim1 = new Claims("1", ClaimType.Home, "House caught on fire.", "$12,000.33", new DateTime(2019, 10, 21), new DateTime(2019, 11, 5), true);
-            Claims claim2 = new Claims("1", ClaimType.Car, "Hit by blind driver.", "$2,030.33", new DateTime(2020, 9, 21), new DateTime(2020, 10, 5), true);
+            Claims claim1 = new Claims("1234", ClaimType.Home, "House caught on fire.", "$12,000.33", new DateTime(2019, 10, 21), new DateTime(2019, 11, 5), true);
+            Claims claim2 = new Claims("2323", ClaimType.Car, "Hit by blind driver.", "$2,030.33", new DateTime(2020, 9, 21), new DateTime(2020, 10, 5), true);
 
             _itemRepo.CreateClaim(claim1);
             _itemRepo.CreateClaim(claim2);
