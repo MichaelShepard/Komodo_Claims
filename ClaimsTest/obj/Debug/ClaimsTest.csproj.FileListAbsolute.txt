@@ -1,0 +1,16 @@
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\bin\Debug\ClaimsTest.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\bin\Debug\ClaimsTest.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\bin\Debug\ClaimsRepository.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\bin\Debug\ClaimsRepository.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\obj\Debug\ClaimsTest.csprojAssemblyReference.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\obj\Debug\ClaimsTest.csproj.CoreCompileInputs.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\obj\Debug\ClaimsTest.csproj.CopyComplete
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\obj\Debug\ClaimsTest.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Claims\ClaimsTest\obj\Debug\ClaimsTest.pdb
